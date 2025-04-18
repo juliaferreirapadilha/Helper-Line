@@ -1,0 +1,224 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Montserrat, sans-serif;
+    background-image: url('../../assets/images/wallpaperHelperLine.png');
+
+}
+
+.top-bar {
+    background-color: #610B0B;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    width: 100vw;
+    font-family: Ledger, sans-serif;
+}
+
+.menu-esquerdo {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    gap: 20px;
+}
+
+.menu1 a{
+    color: white;
+    text-decoration: none;
+    margin-right: 0px;
+    text-align: left;
+}
+
+.menu2 a{
+    color: white;
+    text-decoration: none;
+    margin-right: 15px;
+    font-weight: none;
+    font-family: Ledger, sans-serif;
+}
+
+.menu1 a:hover,
+.menu2 a:hover {
+    text-decoration: underline;
+}
+
+.logo-pequena {
+    height: 20px;
+}
+
+.logo-grande{
+    text-align: center;
+    padding: 20px;
+}
+
+.bem-vindo{
+    color: #610B0B;
+    text-align: center;
+}
+
+main h1 {
+    font-weight: 600;
+    font-size: 32px;
+}
+
+main h2 {
+    color: #610B0B;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+main p, main ul {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+  }
+
+.container-login {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 20px;
+    font-weight: 600;
+}
+
+.container-login p a{
+    font-style: italic;
+    color: #610B0B;
+}
+
+.login-cliente,
+.login-restaurante {
+    color: #610B0B;
+    background-color: white;
+    padding: 20px 30px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.103);
+    width: 430px;
+    font-weight: 600;
+}
+
+input[type="email"],
+input[type="password"] {
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    border: none;
+    background-color: #e6e6e6;
+    font-size: 16px;
+}
+
+button[type="submit"],
+input[type="submit"] {
+    display: inline-block;
+    background-color: #610B0B;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 15px;
+    margin-top: 10px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.botao-entrar {
+    background-color: #610B0B;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 15px;
+    margin-top: 10px;
+    font-weight: bold;
+    text-align: center;
+    width: 200px;
+    margin: 10px auto 0 auto;
+    font-family: Montserrat, sans-serif;
+    font-size: 18px;
+    box-shadow: 0px 4px 6px rgba(0,0,0,0.2);
+    cursor: pointer;
+}
+
+.botao-criarconta {
+    display: inline-block;
+    background-color: #610B0B;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 15px;
+    margin-top: 0px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.botao-entrar:hover,
+.botao-criarconta:hover {
+    background-color: #2e0505;
+}
+
+.criar-conta {
+    text-align: center;
+}
+
+.contato {
+    text-align: left;
+    margin: 50px;
+    margin-top: 10px;
+    max-width: 300px;
+    gap: 40px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+
+}
+
+.linha-contato {
+    display:flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.contato img {
+    display: block;
+    width: 30px;
+    height: auto;
+}
+
+.politica a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.politica a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #610B0B;
+    color: #fff;
+    text-align: center;
+    margin-top: 50px;
+    padding: 10px;
+    width: 100vw;
+    font-size: 14px;
+}
+
+.footer-container {
+    margin-top: -80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}

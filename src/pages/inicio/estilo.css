@@ -1,0 +1,215 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Montserrat, sans-serif;
+    background-image: url('../../assets/images/wallpaperHelperLine.png');
+
+}
+
+.top-bar {
+    background-color: #610B0B;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    width: 100vw;
+    font-family: Ledger, sans-serif;
+}
+
+.menu-esquerdo {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    gap: 20px;
+}
+
+.menu1 a{
+    color: white;
+    text-decoration: none;
+    margin-right: 0px;
+    text-align: left;
+}
+
+.menu2 a{
+    color: white;
+    text-decoration: none;
+    margin-right: 15px;
+    font-weight: none;
+    font-family: Ledger, sans-serif;
+}
+
+.menu1 a:hover,
+.menu2 a:hover {
+    text-decoration: underline;
+}
+
+.logo-pequena {
+    height: 20px;
+}
+
+.logo-grande{
+    text-align: center;
+    padding: 20px;
+}
+
+.quem-somos {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    margin-top: -5px;
+}
+
+.quem-somos img {
+    display: block;
+    width: 100vw;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+
+.container-beneficios {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    max-width: 1200px;
+    margin: 20px auto;
+    margin-top: 15px;
+    padding: 0 20px;
+    align-items: flex-start;
+    font-weight: bold;
+}
+
+.beneficios-restaurante,
+.beneficios-cliente {
+    flex: 1;
+    padding: 20px;
+    border-radius: 15px;
+    color: #610B0B
+}
+
+.beneficios-cliente {
+    flex: 1;
+    margin-left: 30px;
+    padding: 20px;
+    border-radius: 15px;
+    color: #610B0B
+}
+
+main h2 {
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+main ul {
+    font-size: 20px;
+    line-height: 1.1;
+    font-weight: 600;
+}
+
+main p {
+    font-size:20px;
+}
+
+.beneficios-restaurante p,
+.beneficios-cliente p{
+    color: #000;
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-size:26px;
+    font-family: Arima, sans-serif;
+}
+
+
+main h2{
+    color: #610B0B;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+.cadastro {
+    text-align: center;
+    margin-top: -13px;
+    font-weight: bold;
+    color: #610B0B;
+}
+
+.botao {
+    display: inline-block;
+    background-color: #610B0B;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 15px;
+    margin-top: 0px;
+    font-weight: none;
+    text-align: center;
+}
+
+.botao2 {
+    text-decoration: underline;
+    color: #610B0B;
+}
+
+.botao:hover {
+    background-color: #2e0505;
+}
+
+.botao2:hover {
+    color:#2e0505;
+}
+
+.contato {
+    text-align: left;
+    margin: 50px;
+    margin-top: 10px;
+    max-width: 300px;
+    gap: 40px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+
+}
+
+.linha-contato {
+    display:flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.contato img {
+    display: block;
+    width: 30px;
+    height: auto;
+}
+
+.politica a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.politica a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #610B0B;
+    color: #fff;
+    text-align: center;
+    margin-top: 50px;
+    padding: 10px;
+    width: 100vw;
+    font-size: 14px;
+}
+
+.footer-container {
+    margin-top: -80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
